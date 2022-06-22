@@ -1,0 +1,28 @@
+1. Viết chương trình quản lí thông tin sinh viên. Một sv gồm có mã, tên. Khi ctr run ng dùng có thể nhập, xuất thông tin 1 sv
+2. Viết ctr quản lí điểm trong mặt phẳng. Một point trong mp tung độ, hoành độ. Khi ctr run ng dùng có thể nhập xuất 2 điểm
+
+Phân tích bài
+1. Danh từ mo ta dữ liệu: sinh viên, id, tên
+2. main noun: sinhvien
+   auxi noun: id, tên
+
+Thiết kế: hình vẽ UML
+
+3. Hãy viết ctr để quản lí chiếc xe hơi, một chiếc xe thì gồm màu(color), động cơ, 
+
+4. Viết ctr quản lí sách trong thư viên. Mỗi cuốn sách gồm mã, tựa đề, nhà xuất bản. Khi ctr chạy nó xuất ra 1 menu
+1. nhập sách
+2. xuất sách
+3. thoát ctr
+ng dùng nhập vào lựa chọn nó sẽ xuất chức năng tương ứng
+
+Compile 2 lần: (cross platform)
+- javac: conpile lần đầu ra file class -> mang qua máy nào cũng dc
+- java: compile lần 2 ra file java -> chỉ có máy đó run dc
+
+Java an toàn vì sử dụng máy ảo Java: máy ảo Java giả lập giống y máy thường khi run, nó giả lập bộ nhớ và khi code sai
+thì nó k ảnh hưởng tới các ctr trong máy tính vì nó đang nằm trong JVM 
+
+
+Bài 4: VCT quản lý PhanSo. PhanSo gồm tử số, mẫu số. Khi ctr run user nhập, xuất 2 phân số và in kết quả của cộng, trừ, 
+nhân, chia 2 phân số này
